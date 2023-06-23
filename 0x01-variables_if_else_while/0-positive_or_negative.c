@@ -9,7 +9,7 @@
  * main -Entry point
  * Author: Muawiya
  * Date: 23-06-2023
- * Details: print negative, zero and positive results of a random number using C.
+ * Details: print -,+,0 results of a random number using C.
  * Return: 0 (success)
  */
 
