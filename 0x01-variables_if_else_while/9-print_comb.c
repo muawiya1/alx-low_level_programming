@@ -10,7 +10,7 @@ int main(void)
 	int a = 48;
 
 	for (a = 48; a < 58; a++)
-	{	
+	{
 		putchar(a);
 		if (a != 57)
 		{
