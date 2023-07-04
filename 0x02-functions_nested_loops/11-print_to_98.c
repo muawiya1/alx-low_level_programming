@@ -15,26 +15,25 @@ void print_to_98(int n)
 
 	a = n;
 
-	for (n = a; n < 99; n++)
+	for (n = a; n <= 98; n++)
 	{
-		printf("%d", n);
-
-		if (n < 98)
+		if (n != 98)
 		{
-			putchar(',');
-			putchar(' ');
+			printf("%d, ", n);
+		}
+		else if (n == 98)
+		{
+			printf("%d/n", n)
 		}
 	}
 
-	for (n = a; n > 98; n--)
+	for (n = a; n >= 98; n--)
 	{
-		printf("%d", n);
-
-		if (n > 98)
+		if (n != 98)
 		{
-			putchar(',');
-			putchar(' ');
+			printf("%d ,", n);
 		}
+	}
 	}
 	putchar('\n');
 }
