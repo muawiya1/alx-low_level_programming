@@ -12,7 +12,7 @@
 
 int add(int a, int b)
 {
-	int a, b;
+	int n;
 
 	n = a + b;
 
